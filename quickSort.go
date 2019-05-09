@@ -7,7 +7,7 @@ import (
 )
 
 func sort(values []int) (ret []int) {
-    // 要素数が 1 以下の配列はそれ以上細分化してソートする必要がない
+    // 要素数が 1 以下の配列はそれ以上細分化してソートする必要がない!
     if len(values) < 2 {
         return values
     }
